@@ -1,7 +1,8 @@
-name: mfa_template
+name: mfa_home
 description: A new Flutter package project.
 version: 0.0.1
-homepage: mfa_template
+homepage: mfa_home
+publish_to: none
 
 environment:
   sdk: ">=2.19.6 <3.0.0"
@@ -10,6 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  core_app:
+    path: "../core_app"
+  mfa_authentication:
+    path: "../mfa_authentication"
+  common_dependencies:
+    path: "../common_dependencies"
+  common_utils:
+    path: "../common_utils"
 
 dev_dependencies:
   flutter_test:
@@ -17,11 +26,9 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  #   - assets/images/muhna_logo.jpg
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
