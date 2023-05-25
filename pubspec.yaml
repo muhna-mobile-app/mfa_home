@@ -12,13 +12,14 @@ dependencies:
   flutter:
     sdk: flutter
   core_app:
-    path: "../core_app"
+    git:
+      url: "https://github.com/muhna-mobile-app/core_app"
   mfa_authentication:
-    path: "../mfa_authentication"
+    git:
+      url: "https://github.com/muhna-mobile-app/mfa_authentication"
   common_dependencies:
-    path: "../common_dependencies"
-  common_utils:
-    path: "../common_utils"
+    git:
+      url: "https://github.com/muhna-mobile-app/common_dependencies"
 
 dev_dependencies:
   flutter_test:
